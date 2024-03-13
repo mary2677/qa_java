@@ -2,8 +2,9 @@ package com.example;
 
 import java.util.List;
 
+//the animals class
 public class Animal {
-
+ //What do animals eat
     public List<String> getFood(String animalKind) throws Exception {
         if ("Травоядное".equals(animalKind)) {
             return List.of("Трава", "Различные растения");
